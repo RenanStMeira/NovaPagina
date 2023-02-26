@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Renan Meira</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <img src="img/WhatsApp Image 2023-02-23 at 15.35.42.jpeg" alt="logo">
+        </div>
+
+        <ul>
+            <li><a href="https://github.com/RenanStMeira" target="_blank" >github</a></li>
+            <li><a href="https://wa.me/+5518935002592" target="_blank">WhatsApp</a></li>
+            <li><a href="mailto:renan.meira25@gmail.com"></a>Email</li>
+            <li><a href="projetos.html" target="_blank">Projetos</a></li>
+        </ul>
+
+    </header>   
+    <main>
+        <section class="container">
+            <div class="info">
+                <h1>Renan Meira</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+
+            <div displayAbout() id="arrow">
+                <i id="animation" class="fa-solid fa-arrow-down-to-arc"></i>
+            </div>
+
+            <div id="about">
+                <p>
+                    Responsável por criar a interface de utilização de um site ou aplicação web. A camada visual das aplicações web, na qual os usuários interagem.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <div>
+        <h3>Linguagens de progamção </h3>
+    </div>
+    <nav>
+        <ul class="info">
+            <li id="html">HTML</li>
+            <img src="img/html.jpg" alt="html">
+            <p>HTML5 é a quinta e última versão do HTML, sigla de Hypertext Markup Language, uma das primeiras e principais linguagens de marcação da web. O HTML serve, basicamente, para o desenvolvimento de páginas que contenham conteúdos simples, como textos, imagens, áudio, vídeos e etc.</p>
+
+            <li class="css">CSS</li>
+            <img src="img/css.png" alt="css">
+            <p>O que é CSS e para que serve?
+                Resultado de imagem para CSS
+                CSS é uma linguagem baseada em regras. — Você define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web. Por exemplo, "Quero que o título principal, na minha página, seja mostrado como um texto grande e de cor vermelha."</p>
+
+            <li class="js">JavaScript</li>
+            <img src="img/js.png" alt="">
+            <p>JavaScript é a linguagem principal para trabalhar com aplicações web. Trata-se de sistemas que funcionam em navegadores, como plataformas de gestão e qualquer outra ferramenta com acesso por meio da web.</p>
+        </ul>
+    </nav>
+    <footer>
+        <div class="form">
+            <div>
+                <p>Deixe seu contato</p>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="seu melhor email">
+                <button>Enviar!</button>
+            </form>
+        </div>
+        <p>Renan Meira&#9400;</p>
+    </footer>
+
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+        }
+    </script>
+    
+</body>
+</html>

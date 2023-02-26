@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(15, 99, 88);
+    font-size: 30px;
+    font-style: italic;
+    margin: 10px;
+}
+
+body {
+   /* background-image: url(img/curve-brian-carson.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    background-color: rgb(211, 241, 231);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 20px 1px; color: #000000;
+    color: rgb(15, 99, 88);
+    font-size: 30px;
+    font-style: italic;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,153,0.2665441176470589) 50%, rgba(252,176,69,1) 100%);
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 8px;
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.info {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+#about {
+    color: rgb(15, 99, 88);
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+img{
+    max-width: 90px;
+    max-height: 200px;
+    margin: 15px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+h3{
+    text-align: center;
+    padding-top: 20px;
+    color: darkcyan;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 30px;
+}
+
+#html {
+    color: orangered;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.css {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.js {
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form p {
+    color: rgb(12, 92, 36);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+form {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+footer {
+    margin-top: 20px;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+button {
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+input {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+/*responsividade*/
+@media only screen and (max-width: 480px) {
+    header ul li {
+        font-size: 1px;
+        padding: 1px;
+    }
+}
+
